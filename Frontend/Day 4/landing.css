@@ -1,0 +1,37 @@
+.app-container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(rgba(245, 241, 241, 0.7), rgba(243, 238, 238, 0.7)), url("https://res.cloudinary.com/duaotkbof/image/upload/v1708606241/eqzmjicyrdomptpayzg9.jpg");
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  z-index: 0;
+}
+
+.user-image,
+.admin-image {
+  text-align: center;
+  margin-left: 400px; 
+  margin-right: -200px;
+}
+
+.limg {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+.limg:hover {
+  transform: scale(1.1); /* Increase scale on hover */
+}
+
+p {
+  font-size: 30px;
+  font-family: calibri;
+  font-weight: bolder;
+  color: #333;
+}

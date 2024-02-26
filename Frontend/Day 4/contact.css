@@ -1,0 +1,70 @@
+.order
+{
+    margin-top: -150px;
+    width:100%;
+    height: 100vh;
+    padding:70px 0;
+}
+.order h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-size:45px;
+}
+.order h1 span{
+    margin-left: 10px;
+    color: #68d66f;
+}
+.order_main
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.order_image img{
+    width: 650px;
+    border-radius: 30px 130px 30px;
+}
+.order .order_main form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:0 10px;
+   
+}
+.input p{
+    line-height: 25px;
+}
+.order_main form .input{
+    margin:5px;
+}
+.input input{
+    width: 300px;
+    height: 35px;
+    padding: 0 10px;
+    border:2px solid #68d66f;
+    background:#fff;
+    outline: none;
+    border-radius: 3px;
+}
+.input input:focus{
+    border: 2px solid #68d66f;
+}
+.order_btn
+{
+    padding: 10px 0;
+    background: #68d66f;
+    color: #fff;
+    width: 40%;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 30px 130px 30px;
+    text-decoration: none;
+    transition: 0.3s;
+
+
+}
+.pa
+{
+    font-size: 20px;
+}
