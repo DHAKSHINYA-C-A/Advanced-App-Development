@@ -1,0 +1,77 @@
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    height: 50px; /* Adjust the height as needed */
+    padding: 10px; /* Adjust the padding as needed */
+    margin-left: 100px;
+    border: 3px solid #ddd;
+  }
+  
+  table th,
+  table td {
+    border: 1px solid #ddd;
+    padding: 30px; /* Adjust the padding as needed */
+    text-align: center;
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+  }
+  
+  .add-form {
+    margin-top: 50px;
+    margin-left: 200px;
+  }
+  
+  .add-form input {
+    margin-right: 10px;
+    padding: 10px;
+  }
+  
+  .add-form button {
+    padding: 8px 12px; /* Adjust the padding as needed */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .tt {
+    font-size: 30px;
+    margin-left: 300px;
+    margin-bottom: 10px;
+  
+  }
+  
+  .edit-btn,
+.delete-btn {
+  display: block;
+  width: 100px; /* Adjust width as needed */
+  margin-bottom: 10px; /* Add space between buttons */
+  padding: 8px 12px; /* Adjust padding as needed */
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 4px;
+  margin-left: 30px;
+}
+
+.edit-btn {
+  background-color: #2ecc71; /* Dark green color for edit button */
+  color: #fff;
+}
+
+.delete-btn {
+  background-color: #e74c3c; /* Red color for delete button */
+  color: #fff;
+}
