@@ -1,0 +1,173 @@
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:-25px;
+    height: 100vh;
+   
+}
+.background-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -25px;
+    height: 100vh;
+    background: linear-gradient(rgba(245, 241, 241, 0.5), rgba(243, 238, 238, 0.5)), url("https://res.cloudinary.com/duaotkbof/image/upload/v1708605982/b8dhrwsziefanrg8z2cw.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 80px;
+}
+
+.profile-image {
+    flex: 1;
+    display: flex;
+    margin-top: -30px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.profile-image img {
+    width: 200px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.edit-overlay {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.edit-icon {
+    color: #333;
+    font-size: 24px;
+}
+
+.profile-details {
+    flex: 1;
+    padding: 20px;
+}
+
+.detail {
+    margin-bottom: 10px;
+}
+
+.label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.value {
+    font-style: italic;
+}
+
+.edit-button {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: -50px;
+}
+
+.edit-button button {
+    background-color: #68d66f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.edit-button button:hover {
+    background-color: rgb(229, 178, 85);
+}
+
+.profile-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-left:65px;
+}
+
+/* Styles for the popup */
+/* ... (previous styles) */
+
+/* Styles for the popup */
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: -100px; /* Increase the padding */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    display: grid;
+    grid-template-columns: max-content auto; /* Change to have label on the left and textarea on the right */
+    gap: 20px; /* Adjust the gap between label and input */
+    width: 462px; /* Increase the width */
+}
+
+.popup label {
+    font-size: 16px;
+    font-weight: bold;
+    align-self: center;
+    grid-column: 1; /* Set label to the first column (left) */
+}
+
+.popup textarea,
+.popup input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    grid-column: 2; /* Set textarea/input to the second column (right) */
+}
+
+.popup textarea {
+    /* Customize the textarea style */
+    border: 1px dashed #ddd; /* Change 'solid' to 'dashed' */
+    resize: none; /* Disable textarea resizing */
+}
+
+.popup button {
+    grid-column: span 2; /* Make the button span two columns */
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px; /* Adjust the top margin of the button */
+}
+
+.popup button:hover {
+    background-color: #45a049;
+}
+
+/* ... (other styles) */

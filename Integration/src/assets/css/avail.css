@@ -1,0 +1,150 @@
+.available1 {
+    width: 100%;
+    padding: 70px 0;
+    margin-bottom: -150px;
+    margin-top: 100px;
+    margin-left: 20px;
+  }
+  
+  .av_box1 {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .av_card1 {
+    width: 100%;
+    max-width: 350px;
+    height: 450px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .av_card1:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .av-image1 {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .av-image1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+  }
+  
+  .av_card:hover .av-image1 img {
+    transform: scale(1.1);
+  }
+  
+  .av_info1 {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .av_info1 h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .av_info1 p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .av_info1 h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    
+  }
+  
+  .av_icon1 {
+    color: #68d66f;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .av_icon1 svg {
+    margin: 0 2px;
+  }
+  
+  .av_btn1 {
+    background-color: #68d66f;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .av_btn1:hover {
+    background-color: #4fa457;
+  }
+  /* Add this to your existing CSS file or create a new CSS file */
+
+.form-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  backdrop-filter: blur(5px); /* Adjust the blur as needed */
+}
+
+.form-container {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px; /* Adjust the width as needed */
+  height:100vh;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-container button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}
